@@ -1,8 +1,9 @@
 {% extends './layout.html' %}
 {% block content %}
-  <ul>
+<br>
+  <ul class="list-group">
   {% for person in people %}
-      <li>
+      <li class="list-group-item">
         <a href='/people/{{ person.id }}'>
       {{ person.name }}
       </a>
