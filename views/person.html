@@ -1,0 +1,11 @@
+{% extends './layout.html' %}
+{% block content %}
+<div>
+Page for {{ person.name }}
+<ul>
+  <li>Age: {{ person.age }}</li>
+  <li>City: {{ person.city }}</li>
+</ul>
+</div>
+<a href='/people'>Back to all People</a>
+{% endblock %}
